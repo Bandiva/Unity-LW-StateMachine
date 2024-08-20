@@ -1,0 +1,27 @@
+using UnityEngine;
+using LSWM;
+
+namespace PLACEHOLDER
+{
+    public enum MyStates
+    {
+       // DoSomething
+    }
+    public class #SCRIPTNAME# : LWSM.StateMachine
+    {
+        public GameObject go;
+        
+        private void Start()
+        {     
+            
+            //Init
+            //CurrentState = States[MyStates.DoSomething];
+            //CurrentState.EnterState();
+        }
+        private void InitStates()
+        {   
+            //Add states do be processed
+            //States.Add(MyStates.DoSomething, new DoSomething(this, this.gameObject));
+        }
+    }
+}
