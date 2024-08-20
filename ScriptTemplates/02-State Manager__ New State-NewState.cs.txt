@@ -1,0 +1,15 @@
+using UnityEngine;
+using LSWM;
+
+namespace PLACEHOLDER
+{
+    public class #SCRIPTNAME# : IState
+    {
+        //private readonly MyInheretedStateMachine _stateMachine
+        
+        public #SCRIPTNAME#(MyInheretedStateMachine stateMachine) 
+        {
+            //_stateMachine = stateMachine
+        }
+    }
+}
